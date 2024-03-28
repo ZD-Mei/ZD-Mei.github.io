@@ -1,43 +1,59 @@
----
-layout: page
-description: "Welcome to Mei, Zhendong's website!."
----
+<div class="main" id="main_anchor">
+  <h1>Welcome to Mei, Zhendong's website!</h1>
+  <!-- <hr> </hr> -->
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-        <div class="post-content-preview">
-            {{ post.content | strip_html | truncate:200 }}
+<section id="slider" class="carousel slide" data-ride="carousel" data-interval="5000">
+
+  
+  #<ol class="carousel-indicators">
+    
+  # <li data-target="#slider" data-slide-to="0" class="active"></li>
+    
+  #</ol>
+
+  
+  <div class="carousel-inner">
+    
+    <div class="wg-hero dark carousel-item active" style="
+      
+      background-color: #FFFFF;
+      
+      
+      background-image:
+      linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+      url('https://github.com/ZD-Mei/ZD-Mei.github.io/blob/main/Image/mm.jpg');
+      
+      ;">
+      <div class="container" style="text-align: center;">
+          <h1 class="hero-title" itemprop="headline">
+            Hello!
+          </h1>
+
+          
+          <p class="hero-lead" style="margin: 0 auto 0 auto;">
+            Welcome to Mei, Zhendong's website! 
+            我的研究方向为多组学数据分析,流行病学,以及生物信息学.
+          </p>
+          
+
+          
+          
+          #<p>
+          #  <a class='btn btn-light btn-lg' href='https://www.shenxt.info/files/cv'><i class="fa fa-address-card" style="padding-right: 10px;"></i>查看我的简历</a>
+          #</p>
+          
         </div>
-    </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-</div>
-<hr>
-{% endfor %}
+    </div>
+    
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+  
+  <a class="carousel-control-prev" href="#slider" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#slider" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    <span class="sr-only">Next</span>
+  </a>
 
+</section>
