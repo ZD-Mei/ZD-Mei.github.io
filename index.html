@@ -52,6 +52,10 @@
     .light-text {
       color: #888; /* 设置文字颜色为浅灰色 */
     }
+
+    .ul-interests {
+            line-height: 1.5;
+    }
   </style>
 
 
@@ -87,7 +91,7 @@
           </h2>
         
           <p>
-            <a class='btn btn-light btn-lg' href='https://github.com/ZD-Mei/ZD-Mei.github.io/blob/main/Image/CV-Zhendong%20Mei-20240328.pdf'><i class="fa fa-address-card" style="color: #0C4099;padding-right: 12px;"></i>My CV</a>
+            <a class='btn btn-light btn-lg' href='https://github.com/ZD-Mei/ZD-Mei.github.io/blob/main/Image/CV-Zhendong%20Mei-20240328.pdf'><i class="fa fa-address-card" style="color: #0C4099;padding-right: 20px;"></i>My CV</a>
           </p>
           
         </div>
@@ -126,14 +130,14 @@
       <img class="portrait" src="https://raw.githubusercontent.com/ZD-Mei/ZD-Mei.github.io/main/Image/Zhendong-Mei.jpg" itemprop="image" alt="Avatar" style="max-width: 80%; margin: 0 auto;margin-top: 30px;">
 
       <div class="portrait-title">
-        <h1 itemprop="name"; style="font-family:Arial;text-align: center;">Zhendong Mei <span style="font-size: 24px;"> Ph.D.</span></h1> 
-        <h3 itemprop="jobTitle"; style="font-size:20px;font-family:Arial;text-align: center;">Postdoctoral Research Fellow</h3>
-        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization" style="display: flex; flex-direction: column; font-size:20px;font-family:Arial;text-align: center; color: #991500;">
+        <h1 itemprop="name"; style="font-family:Arial;text-align: center;">Zhendong Mei <span style="font-size: 22px;"> Ph.D.</span></h1> 
+        <h3 itemprop="jobTitle"; style="font-size:19px;font-family:Arial;text-align: center;">Postdoctoral Research Fellow</h3>
+        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization" style="display: flex; flex-direction: column; font-size:19px;font-family:Arial;text-align: center;">
           <a href="https://www.brighamandwomens.org/" target="_blank" itemprop="url" rel="noopener">
-            <span itemprop="name">Brigham and Women's Hospital</span>
+            <span itemprop="name" style="color: #0C4099">Brigham and Women's Hospital</span>
           </a>
           <a href="https://hms.harvard.edu/" target="_blank" itemprop="url" rel="noopener">
-            <span itemprop="name">Harvard Medical School</span>
+            <span itemprop="name" style="color: #0C4099">Harvard Medical School</span>
           </a>
         </h3>
         
@@ -166,7 +170,7 @@
     </div>
   </div>
   <div class="col-12 col-lg-8" itemprop="description" style="margin-top: 30px;">
-    <h1>About</h1>
+    <h2>About</h2>
     <p>I am now a Postdoctoral Research Fellow in <a href="https://www.brighamandwomens.org/" target="_blank">Brigham and Women's Hospital</a>. My overarching research interests are bioinformatics algorithms development for multi-omics data, and their application to precision medicine. Specifically, I am interested in bioinformatics algorithm development, including 1) Comprehensive analysis workflow and deep learning for LC-MS data, 2) Metabolic network analysis, 3) Wearable and multi-omics data integration, and 4) microbiome and metabolome data integration.</p>
     <p>I am also the member of <a href="https://huttenhower.sph.harvard.edu/people/" target="_blank">Curtis Huttenhower lab</a> </p>
     <p>🏫 👫🏻 🐱 ⚽️ 🇨🇳 </p>
@@ -184,42 +188,48 @@
           <li>Cardiometabolic Disease</li>
           <li>Nutrition</li>
         </ul>
-              
-            
-        <h3>Education</h3>
-        <ul class="ul-edu fa-ul">
-          <li>
-          <i class="fa-li fas fa-graduation-cap"></i>
-          <div class="description">
-            <p class="course">PhD, 2018-2021</p>
-            <p class="institution  light-text">Fudan Sciences</p>
-          </div>
-          </li>
-
-          <li>
-          <i class="fa-li fas fa-graduation-cap"></i>
-          <div class="description">
-            <p class="course">MSc, 2015-2018</p>
-            <p class="institution  light-text">Fudan Sciences</p>
-          </div>
-          </li>
-
-          <li>
-          <i class="fa-li fas fa-graduation-cap"></i>
-          <div class="description">
-            <p class="course">MBBS, 2010-2015</p>
-            <p class="institution  light-text">Zhengzhou University</p>
-          </div>
-          </li>
-        </ul>
-      </div>
-        <!-- 右侧图片 -->
-      <div class="col-md-8">
-        <div id="profile">
-          <img class="portrait" src="https://raw.githubusercontent.com/ZD-Mei/ZD-Mei.github.io/main/Image/mm.jpg" itemprop="image" alt="Avatar" style="max-width: 100%;">
-        </div> 
       </div>
     </div>
+        <!-- 右侧图片 -->
+    <div class="col-md-8">
+      <div id="profile">
+        <img class="portrait" src="https://raw.githubusercontent.com/ZD-Mei/ZD-Mei.github.io/main/Image/mm.jpg" itemprop="image" alt="Avatar" style="max-width: 100%;">
+      </div> 
+    </div>
+
+    <!--education -->
+  <div class="col-12 col-lg-8" itemprop="description" style="margin-top: 30px;">
+    <h3>Education</h3>
+    <ul class="ul-edu fa-ul">
+      <li>
+        <i class="fa-li fas fa-graduation-cap" style="color: #0C4099"></i>
+        <div class="description">
+          <p class="course">PhD, 2018-2021</p>
+          <p class="institution  light-text">Fudan university, Shanghai, China</p>
+        </div>
+      </li>
+
+      <li>
+        <i class="fa-li fas fa-graduation-cap" style="color: #0C4099"></i>
+        <div class="description">
+          <p class="course">MSc, 2015-2018</p>
+          <p class="institution  light-text">Fudan university, Shanghai, China</p>
+        </div>
+      </li>
+
+      <li>
+        <i class="fa-li fas fa-graduation-cap" style="color: #0C4099"></i>
+        <div class="description">
+          <p class="course">MBBS, 2010-2015</p>
+          <p class="institution  light-text">Zhengzhou University, Zhengzhou, China</p>
+        </div>
+      </li>
+    </ul>
+  </div>  
+
+
+
+
   </div>      
 </div>
 
@@ -227,3 +237,8 @@
       
     </div>
 </section>
+
+
+
+
+ 
