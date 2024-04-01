@@ -83,70 +83,57 @@
   </style>
 
   <style>
-    .education {
-      border-left: 3px solid #0C4099;
-      padding: 0 30px;
-      margin-left: 185px;
-    }
-    @media (max-width: 767px) {
-      .education {
-        margin-left: 0;
-        padding-right: 0;
-      }
-    }
     .education .item {
       position: relative;
+      padding-left: 50px;
       margin-bottom: 40px;
     }
-    .experience .item::before {
+
+    .education .item::before {
       content: "";
       position: absolute;
       top: 0;
-      left: -43px;
-      width: 22px;
-      height: 22px;
-      border-radius: 50%;
+      left: 20px;
+      width: 3px;
+      height: 100%;
       background-color: #0C4099;
-      border: 3px solid #0C4099;
-    }
-    .experience .item::after {
-      content: "";
-      position: absolute;
-      top: 6px;
-      left: -37px;
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      background-color: #0C4099;
-      border: 3px solid #FFF;
     }
 
     .education .edu-name {
-      font-size:16px;
+      font-size: 18px;
+      font-weight: bold;
     }
+
     .education .location {
-      position: absolute;
-      right: 0;
-      top: 2px;
+      margin-top: 5px;
     }
-    .education .location .fa {
-      margin-right: 8px;
-    }
+
     .education .edu-info {
       position: absolute;
-      left: -185px;
       top: 0;
+      left: 0;
+      padding: 0 10px;
+      text-align: left;
     }
-    .education .ul-edu {
-      margin-top: 0px;margin-bottom: 0px;
-    }
+
     .education .edu-info .title {
-      color: #0C4099;
+      font-weight: bold;
     }
+
+    .education .fa-li {
+      margin-right: 10px;
+    }
+
     @media (max-width: 767px) {
+      .education .item {
+        padding-left: 0;
+      }
+
       .education .edu-info {
         position: static;
-        margin-bottom: 1rem;
+        padding: 0;
+        margin-top: 10px;
+        text-align: center;
       }
     }
 
@@ -450,7 +437,7 @@
     
   </div>
 
-  
+
 </div>
 
   
