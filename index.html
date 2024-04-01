@@ -66,10 +66,76 @@
     margin-top: 0px;margin-bottom: 0px; /* 设置为 0 或更小的值 */
     }
     .custom-border {
-    border-color: #0C4099; /* 设置边框颜色为红色 */
+    border-color: #0C4099; /* 设置边框颜色 */
+    color: #0C4099;
     }
   </style>
 
+  <style>
+    .objective {
+      border-left: 3px solid #0C4099;
+      padding: 0 30px;
+      margin-left: 185px;
+    }
+    @media (max-width: 767px) {
+      .objective {
+        margin-left: 0;
+        padding-right: 0;
+      }
+    }
+    .objective .item {
+      position: relative;
+      margin-bottom: 40px;
+    }
+    .objective .item::before {
+      content: "";
+      position: absolute;
+      top: 0; /* 调整圆点位置 */
+      left: 0; /* 调整圆点位置 */
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background-color: #0C4099;
+      border: 3px solid #0C4099;
+    }
+    .objective .item::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #0C4099;
+      border: 3px solid #FFF;
+    }
+    .objective .obj-name {
+      font-size:16px;
+    }
+    .objective .location {
+      position: absolute;
+      right: 0;
+      top: 2px;
+    }
+    .objective .location .fa {
+      margin-right: 8px;
+    }
+    .objective .obj-info {
+      position: absolute;
+      left: -185px;
+      top: 0;
+    }
+    .objective .obj-info .title {
+      color: $primaryColor;
+    }
+    @media (max-width: 767px) {
+      .objective .obj-info {
+        position: static;
+        margin-bottom: 1rem;
+      }
+    }
+
+  </style>
 
   <title>Dr. Zhendong Mei</title>
 
@@ -189,20 +255,20 @@
     <!--papers-->
     <div class="row experience">  
       <div class="col-auto text-center">
-        <div class="row h-50">
+        <div class="row h-45">
           <div class="col border-right custom-border">&nbsp;</div>
           <div class="col custom-border">&nbsp;</div>
         </div>
         <div class="m-2">
           <span class="badge badge-pill border ">&nbsp;</span>
         </div>
-        <div class="row h-50">
+        <div class="row h-45">
           <div class="col border-right custom-border">&nbsp;</div>
           <div class="col custom-border">&nbsp;</div>
         </div>
       </div>
       
-      <div class="col py-2">
+      <div class="col py-1">
         <div class="card">
           <div class="card-body">
             <p class="card-title exp-title text-muted my-0" style="font-size: 17px">1. Identify lifestyle and environmental factors linked to human health</p>
