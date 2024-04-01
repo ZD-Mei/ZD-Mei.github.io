@@ -65,6 +65,9 @@
     .card-text p {
     margin-top: 0px;margin-bottom: 0px; /* 设置为 0 或更小的值 */
     }
+    .card:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+    }
     .custom-border {
     border-color: #0C4099; /* 设置边框颜色 */
     color: #0C4099;
@@ -253,7 +256,7 @@
     <p> I am now a Postdoctoral Research Fellow co-mentored by Dong D. Wang and <a href="https://huttenhower.sph.harvard.edu/people/" target="_blank" style="color: #0C4099">Curtis Huttenhower</a>. at Brigham and Women's Hospital and Harvard Medical School. I have a blended research background in Epidemiology, Bioinformatics, Genetics, and Nutrition.</p>
     <p>My research is dedicated to integrating lifestyle and environmental factors with multi-omics data-including but not limited to genomics, transcriptomics, proteomics, gut metagenomics, and metabolomics-to explore various aspects of human health, such as cardiometabolic diseases, cognitive decline, and cancer, within both observation and intervention studies. Specifically, my objectives are to:</p>
     <!--papers-->      
-    <div class="card">
+    <div class="card" style="transition: box-shadow 0.3s;">
       <div class="card-body">
         <p class="card-title exp-title my-0" style="font-size: 18px; margin-top: 0px;margin-bottom: 10px">1. Identify lifestyle and environmental factors linked to human health</p>
         <ul class="ul-paper">
