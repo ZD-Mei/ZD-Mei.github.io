@@ -90,7 +90,7 @@
       content: "";
       position: absolute;
       top: 0; /* 调整圆点位置 */
-      left: -12px; /* 调整圆点位置 */
+      left: 0; /* 调整圆点位置 */
       width: 22px;
       height: 22px;
       border-radius: 50%;
@@ -100,15 +100,16 @@
     .objective .item::after {
       content: "";
       position: absolute;
-      top: -37px;
-      left: 6px;
+      top: 0;
+      left: 0;
       width: 10px;
       height: 10px;
       border-radius: 50%;
       background-color: #0C4099;
+      border: 3px solid #FFF;
     }
-    .objective .company-name {
-      color: $primaryColor;
+    .objective .obj-name {
+      font-size:16px;
     }
     .objective .location {
       position: absolute;
@@ -255,11 +256,10 @@
     <div class="container">
       <div class="objective">
         <div class="item">
-          <h5 class="company-name">AIV Dubai</h5>
+          <h5 class="obj-name">AIV Dubai</h5>
           <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Dubai</div>
           <div class="obj-info">
-            <div class="title">Sales Engineer</div>
-            <div>2014 - Present</div>
+            <div class="title">1</div>
           </div>
           <div>
             <ul class="fa-ul">
@@ -271,11 +271,10 @@
         </div>
 
         <div class="item">
-          <h5 class="company-name">Pentair Middle East</h5>
+          <h5 class="obj-name">Pentair Middle East</h5>
           <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Dubai</div>
           <div class="obj-info">
-            <div class="title">Project Engineer</div>
-            <div>2011 - 2014</div>
+            <div class="title">2</div>
           </div>
           <div>
             <ul class="fa-ul">
