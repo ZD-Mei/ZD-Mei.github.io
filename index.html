@@ -98,26 +98,29 @@
       position: relative;
       margin-bottom: 40px;
     }
-    .education .item::before,
-    .education .item::after {
+    .experience .item::before {
       content: "";
       position: absolute;
-      top: 50%; /* 将圆点置于父元素的中间位置 */
-      transform: translateY(-50%); /* 向上偏移一半高度 */
+      top: 0;
+      left: -43px;
       width: 22px;
       height: 22px;
       border-radius: 50%;
       background-color: #0C4099;
       border: 3px solid #0C4099;
     }
-
-    .education .item::before {
-      left: -34px; /* 调整圆点的水平位置 */
+    .experience .item::after {
+      content: "";
+      position: absolute;
+      top: 6px;
+      left: -37px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #0C4099;
+      border: 3px solid #FFF;
     }
 
-    .education .item::after {
-      left: -22px; /* 调整圆点的水平位置 */
-    }
     .education .edu-name {
       font-size:16px;
     }
@@ -363,7 +366,7 @@
   <!--时间条-->
   <!--education -->
   <div class="col-12 col-lg-8">
-    <div class="experience">
+    <div class="education">
       <div class="item">
         <h5 class="edu-name">Postdoctoral fellow</h5>
         <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Boston, USA</div>
