@@ -68,51 +68,73 @@
     .custom-border {
     border-color: #0C4099; /* 设置边框颜色为红色 */
     }
+  </style>
 
+  <style>
     .objective {
-      border-left: 3px solid $primaryColor;
+      border-left: 3px solid #0C4099;
       padding: 0 30px;
       margin-left: 185px;
-      @media (max-width: 767px) {
+    }
+    @media (max-width: 767px) {
+      .objective {
         margin-left: 0;
         padding-right: 0;
       }
-      .item {
-        position: relative;
-        margin-bottom: 40px;
-        &::before {
-          @include round-btn(-43px, 0, 22px, 22px, $bgColor);
-          border: 3px solid $primaryColor;
-        }
-        &::after {
-          @include round-btn(-37px, 6px, 10px, 10px, $primaryColor);
-        }
-      }
-      .company-name {
-        color: $primaryColor;
-      }
-      .location {
-        position: absolute;
-        right: 0;
-        top: 2px;
-        .fa {
-          margin-right: 8px;
-        }
-      }
-      .obj-info {
-        position: absolute;
-        left: -185px;
-        top: 0;
-        .title {
-          color: $primaryColor;
-        }
-        @media (max-width: 767px) {
-          position: static;
-          margin-bottom: 1rem;
-        }
+    }
+    .objective .item {
+      position: relative;
+      margin-bottom: 40px;
+    }
+    .objective .item::before {
+      content: "";
+      position: absolute;
+      top: -43px;
+      left: 0;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background-color: #EDEEFF;
+      border: 3px solid #EDEEFF;
+    }
+    .objective .item::after {
+      content: "";
+      position: absolute;
+      top: -37px;
+      left: 6px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #EDEEFF;
+    }
+    .objective .company-name {
+      color: $primaryColor;
+    }
+    .objective .location {
+      position: absolute;
+      right: 0;
+      top: 2px;
+    }
+    .objective .location .fa {
+      margin-right: 8px;
+    }
+    .objective .obj-info {
+      position: absolute;
+      left: -185px;
+      top: 0;
+    }
+    .objective .obj-info .title {
+      color: $primaryColor;
+    }
+    @media (max-width: 767px) {
+      .objective .obj-info {
+        position: static;
+        margin-bottom: 1rem;
       }
     }
+
   </style>
+
 
 
   <title>Dr. Zhendong Mei</title>
