@@ -83,9 +83,21 @@
   </style>
 
   <style>
+    .education {
+      border-left: 3px solid #0C4099;
+      padding: 0 30px;
+      margin-left: 185px;
+    }
+
+    @media (max-width: 767px) {
+      .education {
+        margin-left: 0;
+        padding-right: 0;
+      }
+    }
+
     .education .item {
       position: relative;
-      padding-left: 50px;
       margin-bottom: 40px;
     }
 
@@ -93,51 +105,60 @@
       content: "";
       position: absolute;
       top: 0;
-      left: 20px;
-      width: 3px;
-      height: 100%;
+      left: -43px;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
       background-color: #0C4099;
+      border: 3px solid #0C4099;
+    }
+
+    .education .item::after {
+      content: "";
+      position: absolute;
+      top: 6px;
+      left: -37px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #0C4099;
+      border: 3px solid #0C4099;
     }
 
     .education .edu-name {
-      font-size: 18px;
-      font-weight: bold;
+      color: #0C4099;
     }
 
     .education .location {
-      margin-top: 5px;
+      position: absolute;
+      right: 0;
+      top: 2px;
+    }
+
+    .education .location .fa {
+      margin-right: 8px;
     }
 
     .education .edu-info {
       position: absolute;
+      left: -185px;
       top: 0;
-      left: 0;
-      padding: 0 10px;
-      text-align: left;
     }
 
     .education .edu-info .title {
-      font-weight: bold;
-    }
-
-    .education .fa-li {
-      margin-right: 10px;
+      color: #0C4099;
     }
 
     @media (max-width: 767px) {
-      .education .item {
-        padding-left: 0;
-      }
-
       .education .edu-info {
         position: static;
-        padding: 0;
-        margin-top: 10px;
-        text-align: center;
+        margin-bottom: 1rem;
       }
     }
 
   </style>
+
+  
 
   <title>Dr. Zhendong Mei</title>
 
