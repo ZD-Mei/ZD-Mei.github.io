@@ -57,6 +57,21 @@
     .mid-icon {
       font-size: 25px; /* 设置图标大小为 25px */
     }
+
+    .nav-link.btn {
+      /*background-color: #007bff; */  /* 设置按钮的背景色 */
+      color: #FFF; /* 设置按钮的文字颜色 */
+      border-radius: 20px; /* 设置按钮的边框圆角 */
+      padding: 10px 20px; /* 设置按钮的内边距 */
+      font-size: 16px; /* 设置按钮的文字大小 */
+      text-transform: uppercase; /* 设置按钮文字转换为大写 */
+      transition: background-color 0.3s ease; /* 设置按钮的背景色过渡效果 */
+    }
+
+    .nav-link.btn:hover {
+      background-color: #0056b3; /* 设置按钮鼠标悬停时的背景色 */
+    }
+
     .fa.fa-user-circle:hover {
     transform: scale(1.2); /* 鼠标悬停时图标放大 1.2 倍 */
     }
@@ -245,6 +260,9 @@
       <ul class="navbar-nav ml-auto">
 
         <li class="nav-item">
+          <a class="nav-link btn btn-primary" href="/#header" data-target="#header" style="color:white"><span>HOME</span> </a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link btn btn-primary" href="/#profile" data-target="#profile" style="color:white"><span>PROFILE</span> </a>
         </li>
 
@@ -252,8 +270,8 @@
           <a class="nav-link btn btn-primary" href="/#interest" data-target="#interest" style="color:white"><span>INTERESTS</span> </a>
         </li>
 
-        <li class="nav-item" btn btn-primary>
-          <a class="nav-link " href="/#education" data-target="#education" style="color:white"><span>EDUCATION</span> </a>
+        <li class="nav-item">
+          <a class="nav-link btn btn-primary" href="/#education" data-target="#education" style="color:white"><span>EDUCATION</span> </a>
         </li>
       </ul>
     </div>
@@ -262,7 +280,7 @@
 <span class="js-widget-page d-none"></span>
 
 
-<section id="slider" class="carousel slide" data-ride="carousel" data-interval="5000">
+<section id="header" class="carousel slide" data-ride="carousel" data-interval="5000">
 
   
   <div class="carousel-inner">
@@ -270,12 +288,12 @@
       background-color: #FFFFFF;
       background-image:url('https://raw.githubusercontent.com/ZD-Mei/ZD-Mei.github.io/main/Image/Background.jpg');
       ;">
-      <div class="container" style="text-align: center;font-size:30px;line-height: 1.5;font-family:Arial;color: #FFF; margin-top: 40px;">
+      <div class="container" style="text-align: center;font-size:30px;line-height: 1.5;font-family:Arial;color: #FFF; margin-top: 50px;">
           <h1 class="hero-title" itemprop="headline">Hello!</h1>
           <h2 class="hero-lead" style="margin: 0 auto 0 auto;font-size:28px;font-family:Arial;color: #FFF;margin-bottom: 32px">
             Welcome to Zhendong Mei's website!</h2>
         
-          <p><a class='btn btn-light btn-lg' href='https://raw.githubusercontent.com/ZD-Mei/ZD-Mei.github.io/main/Image/CV-Zhendong%20Mei-20240328.pdf'><i class="fas fa-address-card" style="color: #0C4099;font-size: 25px;padding-right: 20px;"></i>Download my CV</a></p>
+          <!--p><a class='btn btn-light btn-lg' href='https://raw.githubusercontent.com/ZD-Mei/ZD-Mei.github.io/main/Image/CV-Zhendong%20Mei-20240328.pdf'><i class="fas fa-address-card" style="color: #0C4099;font-size: 25px;padding-right: 20px;"></i>Download my CV</a></p-->
           
       </div>
     </div>  
