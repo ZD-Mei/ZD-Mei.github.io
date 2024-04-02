@@ -244,7 +244,12 @@
 </head>
 
  
-
+<script>
+// JavaScript 函数用于滚动到指定的 section
+function scrollToSection(sectionId) {
+  document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+}
+</script>
 
 
 <section id="header" class="carousel slide" data-ride="carousel" data-interval="5000">
@@ -255,7 +260,7 @@
         <h1 class="hero-title" itemprop="headline">Hello!</h1>
         <h2 class="hero-lead" style="margin: 0 auto 0 auto;font-size:28px;font-family:Arial;color: #FFF;margin-bottom: 40px">Welcome to Zhendong Mei's website!</h2>
 
-        <div class="btn-group" role="group" aria-label="Header Buttons">
+        <div style="position: absolute; top: 10px; right: 10px;">
           <button type="button" class="btn btn-primary" onclick="scrollToSection('profile')">Profile</button>
           <button type="button" class="btn btn-primary" onclick="scrollToSection('interest')">Interests</button>
           <button type="button" class="btn btn-primary" onclick="scrollToSection('education')">Education</button>
