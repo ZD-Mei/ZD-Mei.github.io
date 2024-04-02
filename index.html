@@ -252,7 +252,7 @@ function scrollToSection(sectionId) {
 </script>
 
 
-<section id="header" class="carousel slide" data-ride="carousel" data-interval="5000">
+<section id="header" class="carousel slide fixed-top" data-ride="carousel" data-interval="5000">
   <div class="carousel-inner">
     <div class="wg-hero dark carousel-item active" style="background-color: #FFFFFF; background-image:url('https://raw.githubusercontent.com/ZD-Mei/ZD-Mei.github.io/main/Image/Background.jpg');">
 
@@ -260,11 +260,21 @@ function scrollToSection(sectionId) {
         <h1 class="hero-title" itemprop="headline">Hello!</h1>
         <h2 class="hero-lead" style="margin: 0 auto 0 auto;font-size:28px;font-family:Arial;color: #FFF;margin-bottom: 40px">Welcome to Zhendong Mei's website!</h2>
 
-        <div style="position: absolute; top: 10px; right: 10px;">
-          <button type="button" class="btn btn-primary" onclick="scrollToSection('profile')">Profile</button>
-          <button type="button" class="btn btn-primary" onclick="scrollToSection('interest')">Interests</button>
-          <button type="button" class="btn btn-primary" onclick="scrollToSection('education')">Education</button>
+        <div class="row justify-content-end">
+          <div class="col-12 text-right">
+            <!-- 添加按钮 -->
+            <div class="btn-group">
+              <a href="https://raw.githubusercontent.com/ZD-Mei/ZD-Mei.github.io/main/Image/CV-Zhendong%20Mei-20240328.pdf" class="btn btn-outline-primary" style="color: white;" download>
+                <i class="fas fa-download"></i> Download my CV
+              </a>
+              <button type="button" class="btn btn-outline-primary" onclick="scrollToSection('profile')" style="color: white;">Profile</button>
+              <button type="button" class="btn btn-outline-primary" onclick="scrollToSection('interest')" style="color: white;">Interests</button>
+              <button type="button" class="btn btn-outline-primary" onclick="scrollToSection('education')" style="color: white;">Education</button>
+
+            </div>
+          </div>
         </div>
+
       </div>
 
     </div>
