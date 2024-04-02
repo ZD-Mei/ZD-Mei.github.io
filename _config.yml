@@ -1,42 +1,560 @@
-title: "Zhendong Mei"
-author: "Zhendong"
-description: "Hello! Welcom to Zhendong's personal website." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
 
-# Email / Social media user names used by the minima theme:
-# All of these are optional and can be removed or commented out
-email: "nhzme@channing.harvard.edu"
-#twitter_username: "twitteruser"
-github_username: "ZD-Mei"
-#linkedin_username: "linkedinuser"
-#facebook_username: username
-#flickr_username: username
-#instagram_username: username
-#pinterest_username: username
-#youtube_username: username
-#googleplus_username: +username
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Blist">
 
-#########################################################################################
-######### Nothing below needs to be changed (unless you know what you're doing) #########
-#########################################################################################
-theme: "minima"
+  <meta name="author" content="Zhendong Mei">
+  <meta name="description" content="Share">
 
-rss: rss
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-tS3mN0fhbXr7lhvP4mSBbgfBys2CFqBpWMpU8sC2FsXXYRxI3+mbEFk/zB+BH/PmqFxVJ2dWdV6GYbC9/FRsQA==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-tS3mN0fhbXr7lhvP4mSBbgfBys2CFqBpWMpU8sC2FsXXYRxI3+mbEFk/zB+BH/PmqFxVJ2dWdV6GYbC9/FRsQA==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans|Noto+Sans|PT+Sans|Playfair+Display|Inter">
+  <link rel="stylesheet" href="/css/academic.min.3dc4490e608228c057f9568185d552b7.css">
+  <link rel="stylesheet" href="/css/academic.4ab83872226bd66bc29faca0eb6f364d.css">
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-143314205-1', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('require', 'eventTracker');
+    ga('require', 'outboundLinkTracker');
+    ga('require', 'urlChangeTracker');
+    ga('send', 'pageview');
+  </script>
+  <script async src="//www.google-analytics.com/analytics.js"></script>
     
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
 
-titles_from_headings:
-  strip_title: true
-  collections: true
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
 
-defaults:
-  - scope:
-      path: ""
-      type: post
-    values:
-      tags: Other
+
+  <!-- 添加自定义 CSS -->
+  <style>
+    .big-icon {
+      font-size: 35px; /* 设置图标大小为 25px */
+    }
+    .mid-icon {
+      font-size: 25px; /* 设置图标大小为 25px */
+    }
+    .fa.fa-user-circle:hover {
+    transform: scale(1.2); /* 鼠标悬停时图标放大 1.2 倍 */
+    }
+    .fab.fa-linkedin:hover {
+    transform: scale(1.2); /* 鼠标悬停时图标放大 1.2 倍 */
+    }
+    .fab.fa-researchgate:hover {
+    transform: scale(1.2); /* 鼠标悬停时图标放大 1.2 倍 */
+    }
+    .ai.ai-google-scholar:hover {
+    transform: scale(1.2); /* 鼠标悬停时图标放大 1.2 倍 */
+    }
+
+
+    .light-text {
+      color: #717C84; /* 设置文字颜色为浅灰色 */
+    }
+    .superscript {
+    vertical-align: -0.1em; /* Adjust the vertical alignment */
+    font-size: smaller; /* Adjust the font size */
+    }
+    .italic-text {
+    font-style: italic;
+    }
+
+    .home-section-about {
+      background-color:#F5F5F5
+    }
+
+    .home-section-interest {
+      background-color:#FFF
+    }
+    .home-section-education {
+      background-color:#F5F5F5
+    }
+    
+    .centered-section {
+      text-align: center; /* 居中 */
+    }
+
+    .light-horizontal-line {
+      border-color: #ccc; /* 浅色横线颜色 */
+      border-style: solid;
+      border-width: 0.5px 0; /* 设置边框宽度，只在上下方向有边框 */
+      width: 100%; /* 横线宽度 */
+      margin: 0 auto; /* 横线居中 */
+    }
+
+    .section-title {
+      display: inline-block; /* 让标题元素成为行内块级元素 */
+      padding: 0 20px; /* 标题内边距 */
+      position: relative; /* 设置相对定位 */
+      top: -15px; /* 上移标题 */
+      transition: transform 0.3s; /* 添加过渡效果 */
+    }
+
+
+    .wordcloud,.edu-name,.time {
+      transition: transform 0.3s; /* 添加过渡效果 */
+    }
+
+    .wordcloud:hover,.section-title:hover,.time:hover {
+      transform: scale(1.2); /* 鼠标悬停时放大 1.1 倍 */
+    }
+    .ul-interests {
+      line-height: 1.5;
+    }
+    .ul-paper li {
+      line-height: 1.5;font-size: smaller;
+    }
+    .card-text p {
+    margin-top: 0px;margin-bottom: 0px; /* 设置为 0 或更小的值 */
+    }
+    .card {
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.3s;
+    }
+
+    .card:hover {
+      box-shadow: 3px 0px 12px rgba(0, 0, 0, 0.3); /* 水平偏移量改为 3px，垂直偏移量为 0px */
+    }
+    .custom-border {
+    border-color: #0C4099; /* 设置边框颜色 */
+    color: #0C4099;
+    }
+
+    .row-education {
+      display: flex;
+      justify-content: center; /* 水平居中 */
+      align-items: center; /* 垂直居中 */
+      /* height: 100vh; /* 设置容器的高度为视口的高度 */
+    }
+  </style>
+
+  <style>
+    .education {
+      border-left: 2.5px solid #888;
+      padding: 0 18px;
+      margin-left: 185px;
+    }
+
+    @media (max-width: 767px) {
+      .education {
+        margin-left: 0;
+        padding-right: 0;
+      }
+    }
+
+    .education .item {
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .education .item::before {
+      content: "";
+      position: absolute;
+      top: 3px;
+      left: -30px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: #0C4099;
+      border: 3px solid #0C4099;
+    }
+
+    .education .item::after {
+      content: "";
+      position: absolute;
+      top: 6.5px;
+      left: -26.5px;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      background-color: #0C4099;
+      border: 2px solid #FFF;
+    }
+
+    .education .edu-name {
+      color: #0C4099;
+    }
+
+    .education .location {
+      position: absolute;
+      right: 0;
+      top: 2px;
+      color: #888;
+    }
+
+    .education .location .fas {
+      margin-right: 5px;
+    }
+
+    .education .edu-info {
+      position: absolute;
+      left: -185px;
+      top: 0;
+    }
+
+    .education .edu-info .time {
+      font-size: 18px;
+      padding-right: 15px;
+      margin-right: 0.5em;
+    }
+
+    @media (max-width: 767px) {
+      .education .edu-info {
+        position: static;
+        margin-bottom: 1rem;
+      }
+    }
+
+  </style>
+
+
+
+  <title>Dr. Zhendong Mei</title>
+
+</head>
+
+
+
+
+
+
+
+<section id="slider" class="carousel slide" data-ride="carousel" data-interval="5000">
+
+  
+  <div class="carousel-inner">
+    <div class="wg-hero dark carousel-item active" style="
+      background-color: #FFFFFF;
+      background-image:
+     
+      url('https://raw.githubusercontent.com/ZD-Mei/ZD-Mei.github.io/main/Image/Health_Background_Nov21.jpg');
+      ;">
+      <div class="container" style="text-align: center;font-size:30px;line-height: 1.5;font-family:Arial;color: #FFF; margin-top: 30px;">
+          <h1 class="hero-title" itemprop="headline">
+            
+            Hello!
+          </h1>
+
+          
+          <h2 class="hero-lead" style="margin: 0 auto 0 auto;font-size:28px;font-family:Arial;color: #FFF;margin-bottom: 32px">
+            Welcome to Zhendong Mei's website!
+          </h2>
+        
+          <p>
+            <a class='btn btn-light btn-lg' href='https://raw.githubusercontent.com/ZD-Mei/ZD-Mei.github.io/main/Image/CV-Zhendong%20Mei-20240328.pdf'><i class="fas fa-address-card" style="color: #0C4099;font-size: 25px;padding-right: 20px;"></i>Download my CV</a>
+          </p>
+          
+        </div>
+    </div>  
+    
+  </div>
+</section>
+
+
+
+
+
+<section id="about" class="home-section-about" >
+  <div class="container">
+      
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-telephone person-address" ">
+  <div class="col-12 col-lg-3" style="text-align: center;">
+    <div id="profile">
+
+      
+      
+      <img class="portrait" src="https://raw.githubusercontent.com/ZD-Mei/ZD-Mei.github.io/main/Image/Zhendong-Mei.jpg" itemprop="image" alt="Avatar" style="max-width: 100%; margin: 0 auto;margin-top: 40px;">
+
+      <div class="portrait-title">
+        <h1 itemprop="name"; style="font-family:Arial;text-align: center;font-size: 28px;margin-top: 30px">Zhendong Mei  <span style="font-size: 20px;"> Ph.D.</span></h1> 
+        <h3 itemprop="jobTitle"; style="font-size:18px;font-family:Arial;text-align: center;">Postdoctoral Research Fellow</h3>
+        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization" style="display: flex; flex-direction: column; font-size:18px;font-family:Arial;text-align: center;">
+          <a href="https://www.brighamandwomens.org/" target="_blank" itemprop="url" rel="noopener">
+            <span itemprop="name" style="color: #0C4099">Brigham and Women's Hospital</span>
+          </a>
+          <a href="https://hms.harvard.edu/" target="_blank" itemprop="url" rel="noopener">
+            <span itemprop="name" style="color: #0C4099">Harvard Medical School</span>
+          </a>
+          <p style="text-align: center;font-size: 16px;margin-top:10px">nhzme@channing.harvard.edu</p>
+        </h3>
+        
+      </div>
+
+      <!--<link itemprop="url" href="">-->
+
+      <ul class="network-icon big-icon" aria-hidden="true" style="text-align: center;">
+        <li style="display: inline-block;">
+          <a itemprop="sameAs" href="https://connects.catalyst.harvard.edu/Profiles/display/Person/207655" target="_blank" rel="noopener">
+            <i class="fa fa-user-circle" style="color: #0C4099;"></i>
+          </a>
+        </li>
+
+        <li style="display: inline-block;">
+          <a itemprop="sameAs" href="https://www.linkedin.com/in/zhendong-mei-a9a88186/" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin" style="color: #0C4099;"></i>
+          </a>
+        </li>
+
+        <li style="display: inline-block;">
+          <a itemprop="sameAs" href="https://www.researchgate.net/profile/Zhendong-Mei" target="_blank" rel="noopener">
+            <i class="fab fa-researchgate" style="color: #0C4099;"></i>
+          </a>
+        </li>
+
+        <li style="display: inline-block;">
+          <a itemprop="sameAs" href="https://scholar.google.com/citations?user=BazE0esAAAAJ&hl=en" target="_blank" rel="noopener">
+            <i class="ai ai-google-scholar" style="color: #0C4099;"></i>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
+
+
+  <div class="col-12 col-lg-9" itemprop="description" >
+    <h2 style="margin-top: 40px;">About</h2>
+    <p> I am now a Postdoctoral Research Fellow co-mentored by Dong D. Wang and <a href="https://huttenhower.sph.harvard.edu/home/" target="_blank" style="color: #0C4099">Curtis Huttenhower</a> at Brigham and Women's Hospital and Harvard Medical School. I have a blended research background in Epidemiology, Bioinformatics, Genetics, and Nutrition.</p>
+    <p>My research is dedicated to integrating lifestyle and environmental factors with multi-omics data-including but not limited to genomics, transcriptomics, proteomics, gut metagenomics, and metabolomics-to explore various aspects of human health, such as cardiometabolic diseases, cognitive decline, and cancer, within both observation and intervention studies. Specifically, my objectives are to:</p>
+    <!--papers-->      
+    <div class="card">
+      <div class="card-body">
+        <p class="card-title exp-title my-0" style="font-size: 18px; margin-top: 0px;">1. Identify lifestyle and environmental factors linked to human health</p>
+        <ul class="ul-paper">
+          <li style="margin-bottom: 2.5px;margin-top: 5px;">Hu J, Zhao M, Lin C, Sun Z, Chen GC, <strong>Mei Z</strong><sup class="superscript">*</sup>, Zheng Y<sup class="superscript">*</sup>. <a href="https://nutritionandmetabolism.biomedcentral.com/articles/10.1186/s12986-022-00680-6" target="_blank" style="color: #0C4099;">Associations of visceral adipose tissue with bone mineral density and fracture: observational and Mendelian randomization studies.</a> Nutr Metab (Lond). 2022 Jul 12;19(1):45.</li>
+          <li style="margin-bottom: 0px;">Qi W<sup class="superscript">#</sup>, <strong>Mei Z</strong><sup class="superscript">#</sup>, Sun Z, Lin C, Lin J, Li J, Ji JS, Zheng Y. <a href="https://onlinelibrary.wiley.com/doi/10.1002/jbmr.4872" target="_blank" style="color: #0C4099;">Exposure to Multiple Air Pollutants and the Risk of Fractures: A Large Prospective Population-Based Study.</a> J Bone Miner Res. 2023 Nov;38(11):1549-1559.</li>
+          <hr />
+        </ul>
+
+        <p class="card-title exp-title my-0" style="font-size: 18px; margin-top: 0px;">2. Discover biomarkers and predictors for diseases</p>
+        <!--[ebiomedicine,AIDS,chenhao-BMC]-->
+        <ul class="ul-paper">
+          <li><strong>Mei Z</strong><sup class="superscript">#</sup>, Dong X<sup class="superscript">#</sup>, Qian Y<sup class="superscript">#</sup>, Hong D, Xie Z, Yao G, Qin A, Gao S, Hu J, Liang L, Zheng Y, Su J. <a href="https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(20)30487-4/fulltext" target="_blank" style="color: #0C4099;">Association between the metabolome and bone mineral density in a Chinese population.</a> EBioMedicine. 2020 Dec;62:103111.</li>
+          <li>Lin C<sup class="superscript">#</sup>, Sun Z<sup class="superscript">#</sup>, <strong>Mei Z</strong><sup class="superscript">#</sup>, Zeng H, Zhao M, Hu J, Xia M, Huang T, Wang C, Gao X, Zheng Y. <a href="https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-022-02612-w" target="_blank" style="color: #0C4099;">The causal associations of circulating amino acids with blood pressure: a Mendelian randomization study.</a> BMC Med. 2022 Oct 28;20(1):414.</li>
+          <hr />
+        </ul>
+
+        <p class="card-title exp-title my-0" style="font-size: 18px; margin-top: 0px;">3. Decipher the mechanism underlying the association of risk factors with diseases and validate these findings through <span class="italic-text">in vivo</span> and <span class="italic-text">in vitro</span> studies (open to collaboration)</p>
+        <!--[AJCN-tmao]-->
+        <ul class="ul-paper">
+          <li><strong>Mei Z</strong>, Chen GC, Wang Z, Usyk M, Yu B, Baeza YV, Humphrey G, Benitez RS, Li J, Williams-Nguyen JS, Daviglus ML, Hou L, Cai J, Zheng Y, Knight R, Burk RD, Boerwinkle E, Kaplan RC, Qi Q. <a href="https://www.sciencedirect.com/science/article/pii/S0002916522007298?via%3Dihub" target="_blank" style="color: #0C4099;">Dietary factors, gut microbiota, and serum trimethylamine-N-oxide associated with cardiovascular disease in the Hispanic Community Health Study/Study of Latinos.</a> Am J Clin Nutr. 2021 Jun 1;113(6):1503-1514.</li>
+          <hr />
+        </ul>
+       
+
+        <p class="card-title exp-title my-0" style="font-size: 18px; margin-top: 0px;">4. Generate scientific evidence supporting precision medicine</p>
+        <!--[fish oil]-->
+        <ul class="ul-paper">
+          <li><strong>Mei Z</strong>, Chen GC, Hu J, Lin C, Sun Z, Liu C, Geng X, Yuan C, Qi Q, Zheng Y. <a href="https://www.sciencedirect.com/science/article/pii/S0002916522004191?via%3Dihub" target="_blank" style="color: #0C4099;">Habitual use of fish oil supplements, genetic predisposition, and risk of fractures: a large population-based study.</a> Am J Clin Nutr. 2021 Sep 1;114(3):945-954.</li>
+          <hr />
+        </ul>
+
+          
+        <p class="card-title exp-title my-0" style="font-size: 18px; margin-top: 0px;">5. Pinpoint potential targets for intervention</p>
+
+        
+
+      </div>
+    </div>
+    <div style="height: 40px;"></div>
+
+    <!--p>🏫 👫🏻 🐱 ⚽️ 🇨🇳 </p-->
+ 
+  </div>    
+</div>
+
+
+      
+  </div>
+</section>
+
+
+<!--Interest-->
+<section id="interest" class="home-section-interest" >
+  <div class="container">
+<div style="height: 40px;"></div>
+<div class="centered-section">
+  <hr class="light-horizontal-line">
+  <h3 class="section-title" style="background-color: white;">Interests</h3>
+</div>
+<div style="height: 20px;"></div>        
+<div class="row"">
+  <div class="col-12 col-lg-4"  itemprop="description" style="margin-top: 10px;">
+
+    <ul class="ul-interests">
+      <li>Multi-omics</li>
+      <li>Gut microbiota</li>
+      <li>Metabolomics</li>
+      <li>Genetics</li>
+      <li>Epidemiology</li>
+      <li>Bioinformatics</li>
+      <li>Cardiometabolic Disease</li>
+      <li>Nutrition</li>
+      <li>Cohorts</li>
+      <li>Clinical trial</li>
+    </ul>
+  </div>
+  <!-- 右侧图片 -->
+  <div class="col-12 col-lg-8"  itemprop="description" style="margin-top: 10px;>
+    <div id="profile">
+      <img class="wordcloud" src="https://raw.githubusercontent.com/ZD-Mei/ZD-Mei.github.io/main/Image/cloud.jpg" itemprop="image" alt="Avatar" style="max-width: 100%;">
+    </div> 
+  </div>
+
+  <div style="height: 40px;"></div>
+</div>
+
+    
+
+
+<!--Education-->
+<section id="education" class="home-section-education" >
+    <div class="container">
+<div style="height: 40px;"></div>
+<div class="centered-section">
+  <hr class="light-horizontal-line">
+  <h3 class="section-title" style="background-color: #F5F5F5;">Education</h3>
+</div>
+<div style="height: 20px;"></div> 
+
+<div class="row-education">
+  <!--时间条-->
+  <!--education -->
+  <div class="education">
+    <div class="item">
+      <h5 class="edu-name"><i class="fas fa-hand-point-right" style="font-size: 20px;color:#888"></i>&nbsp;Postdoctoral fellow</h5>
+      <div class="location"><i class="fas fa-map-marker" aria-hidden="true"></i>&nbsp;USA</div>
+      <div class="edu-info">
+        <div class="time">2022-present</div>
+      </div>
+      <div>
+        <ul class="ul-edu">
+          <li style="list-style-type: none;padding-left: -5px;">Brigham and Women’s Hospital and Harvard Medical School, Boston, MA, USA</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="item">
+      <h5 class="edu-name"><i class="fas fa-hand-point-right" style="font-size: 20px;color:#888"></i>&nbsp;Postdoctoral fellow</h5>
+      <div class="location"><i class="fas fa-map-marker" aria-hidden="true"></i>&nbsp;China</div>
+      <div class="edu-info">
+        <div class="time">2021-2022</div>
+      </div>
+      <div>
+        <ul class="ul-edu">
+          <li style="list-style-type: none;padding-left: -5px;">Fudan university, Shanghai, China</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="item">
+      <h5 class="edu-name"><i class="fas fa-hand-point-right" style="font-size: 20px;color:#888"></i>&nbsp;Ph.D.</h5>
+      <div class="location"><i class="fas fa-map-marker" aria-hidden="true"></i>&nbsp;China</div>
+      <div class="edu-info">
+        <div class="time">2018-2021</div>
+      </div>
+      <div>
+        <ul class="ul-edu">
+          <li style="list-style-type: none;padding-left: -5px;">Fudan university, Shanghai, China</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="item">
+      <h5 class="edu-name"><i class="fas fa-hand-point-right" style="font-size: 20px;color:#888"></i>&nbsp;Visiting student</h5>
+      <div class="location">
+        <!--i class="far fa-map"></i-->
+        <i class="fas fa-map-marker" aria-hidden="true"></i>&nbsp;USA</div>
+        <div class="edu-info">
+          <div class="time">2019/10-2020/03</div>
+        </div>
+        <div>
+          <ul class="ul-edu">
+            <li style="list-style-type: none;padding-left: -5px;">Albert Einstein College of Medicine, New York, USA</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="item">
+        <h5 class="edu-name"><i class="fas fa-hand-point-right" style="font-size: 20px;color:#888"></i>&nbsp;MSc</h5>
+        <div class="location"><i class="fas fa-map-marker" aria-hidden="true"></i>&nbsp;China</div>
+        <div class="edu-info">
+          <div class="time">2015-2018</div>
+        </div>
+        <div>
+          <ul class="ul-edu">
+            <li style="list-style-type: none;padding-left: -5px;">Fudan university, Shanghai, China</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="item">
+        <h5 class="edu-name"><i class="fas fa-hand-point-right" style="font-size: 20px;color:#888"></i>&nbsp;MB</h5>
+        <div class="location"><i class="fas fa-map-marker" aria-hidden="true"></i>&nbsp;China</div>
+        <div class="edu-info">
+          <div class="time">2010-2015</div>
+        </div>
+        <div>
+          <ul class="ul-edu">
+            <li style="list-style-type: none;padding-left: -5px;">Zhengzhou University, Zhengzhou, China</li>
+          </ul>
+        </div>
+      </div>
+    </div>   
+
+
+
+
+  </div>
+
+  
+    </div>
+</section>
+
+ 
+
+
+
+
+
+
+
+
+
