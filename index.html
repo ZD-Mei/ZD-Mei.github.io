@@ -114,6 +114,14 @@
     .section-title:hover {
       transform: scale(1.2); /* 鼠标悬停时放大 1.1 倍 */
     }
+
+    .wordcloud {
+      transition: transform 0.3s; /* 添加过渡效果 */
+    }
+
+    .wordcloud:hover {
+      transform: scale(1.2); /* 鼠标悬停时放大 1.1 倍 */
+    }
     .ul-interests {
       line-height: 1.5;
     }
@@ -147,7 +155,7 @@
   <style>
     .education {
       border-left: 2.5px solid #888;
-      padding: 0 20px;
+      padding: 0 18px;
       margin-left: 185px;
     }
 
@@ -178,8 +186,8 @@
     .education .item::after {
       content: "";
       position: absolute;
-      top: 6px;
-      left: -27px;
+      top: 7px;
+      left: -26px;
       width: 13px;
       height: 13px;
       border-radius: 50%;
@@ -403,12 +411,12 @@
 <!--Interest-->
 <section id="interest" class="home-section-interest" >
   <div class="container">
-<div style="height: 30px;"></div>
+<div style="height: 40px;"></div>
 <div class="centered-section">
   <hr class="light-horizontal-line">
   <h3 class="section-title" style="background-color: white;">Interests</h3>
 </div>
-<div style="height: 30px;"></div>        
+<div style="height: 20px;"></div>        
 <div class="row"">
   <div class="col-12 col-lg-4"  itemprop="description" style="margin-top: 10px;">
 
@@ -428,7 +436,7 @@
   <!-- 右侧图片 -->
   <div class="col-12 col-lg-8"  itemprop="description" style="margin-top: 10px;>
     <div id="profile">
-      <img class="portrait" src="https://raw.githubusercontent.com/ZD-Mei/ZD-Mei.github.io/main/Image/cloud.jpg" itemprop="image" alt="Avatar" style="max-width: 100%;">
+      <img class="wordcloud" src="https://raw.githubusercontent.com/ZD-Mei/ZD-Mei.github.io/main/Image/cloud.jpg" itemprop="image" alt="Avatar" style="max-width: 100%;">
     </div> 
   </div>
 
@@ -441,12 +449,12 @@
 <!--Education-->
 <section id="education" class="home-section-education" >
     <div class="container">
-<div style="height: 30px;"></div>
+<div style="height: 40px;"></div>
 <div class="centered-section">
   <hr class="light-horizontal-line">
   <h3 class="section-title" style="background-color: #F5F5F5;">Education</h3>
 </div>
-<div style="height: 30px;"></div> 
+<div style="height: 20px;"></div> 
 
 <div class="row-education">
   <!--时间条-->
